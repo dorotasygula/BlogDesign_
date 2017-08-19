@@ -1,0 +1,205 @@
+body
+{
+	margin: 0;
+	padding: 0;
+	
+}
+
+headContainer
+{
+	width: 100%;
+	
+}
+
+.inner {
+	padding: 0px 50px;
+	padding-bottom: 15px;
+	display: inline-block;
+	background: rgb(50, 50, 50);
+	width: 100%;
+}
+
+.tagline h2
+{
+	font-size: 160%;
+	background-color: rgb(100, 100, 100);
+	display: inline-block;
+	padding: 14px 36px;
+	margin-top: 0;
+	
+	
+}
+
+.tagline h2
+{
+	text-align: center;
+	color: white;
+}
+.centered 
+{
+	text-align: center;
+}
+
+.inner img {
+	width: 125px;
+	height: 125px;
+	border-radius: 50%;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	-o-border-radius: 50%;
+	border: 5px solid #665600;
+	margin-right:8px;
+	
+}
+.a
+{
+	position: absolute; 
+	top: 105px;
+	left: 570px;
+	color: #665600;
+	font-weight: bold;
+	font-size: 20px;
+	
+}
+.a2
+{
+	position: absolute; 
+	top: 105px;
+	left: 680px;
+	color: #665600;
+	font-weight: bold;
+	font-size: 20px;
+	
+}
+.a3
+{
+	position: absolute; 
+	top: 105px;
+	left: 834px;
+	color: #665600;
+	font-weight: bold;
+	font-size: 20px;
+	
+}
+.a4
+{
+	position: absolute; 
+	top: 105px;
+	left: 972px;
+	color: #665600;
+	font-weight: bold;
+	font-size: 20px;
+	
+}
+
+.a5
+{
+	position: absolute; 
+	top: 105px;
+	left: 1120px;
+	color: #665600;
+	font-weight: bold;
+	font-size: 20px;
+	
+}
+
+.a6
+{
+	position: absolute; 
+	top: 105px;
+	left: 1250px;
+	color: #665600;
+	font-weight: bold;
+	font-size: 20px;
+	
+}
+
+.container-fluid
+{
+	
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+.container-text
+{
+	font-size: 120%;
+	text-align: justify;
+	margin-bottom: 30px;
+	
+}
+ h2
+{
+	text-shadow:#666600 2px 2px 3px;
+}
+
+
+.wrapCon{
+  position: relative;
+  /* width: 100%; */
+ 
+}
+
+.image {
+  display: inline-block;
+  width: 80%;
+  height: auto;
+ 
+}
+
+
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 80%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #F0F8FF;
+}
+
+.wrapCon:hover .overlay {
+  opacity: 0.7;
+}
+
+.text {
+  color: #404040;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  font-style: italic;
+  letter-spacing: 2px;
+   text-shadow: 2px 2px lightgray;
+}
+
+.text .importantColor
+
+{
+	color: blue;
+}
+
+.add-padding {
+	padding-bottom: 20px !IMPORTANT; 
+}
+
+.form-group input {
+	background: #F0F8FF;
+	border-radius: 0;
+	color: black;
+	width: 100%;
+}
+
+.form-group textarea {
+	background: #F0F8FF;
+	border-radius: 0;
+	border: 0;
+	outline: 0;
+	resize: none;
+}
